@@ -23,12 +23,25 @@ public class twoDimensionalArray {
         Scanner sc = new Scanner(System.in);
         int[][] well = new int[3][3];
 
-        for (int i = 0; i < well.length; i++) { // For Rows
-            for (int j = 0; j < well[i].length; j++) { // For Columns
-                well[i][j] = sc.nextInt();
+        for (int row = 0; row < well.length; row++) { // For Rows
+            for (int col = 0; col < well[row].length; col++) { // For Columns
+                well[row][col] = sc.nextInt();
             }
         }
         System.out.println(Arrays.deepToString(well));
+
+        int[][] well2 = new int[3][];
+
+        well2[0] = new int[3];
+        well2[1] = new int[2];
+        well2[2] = new int[4];
+
+        for (int row = 0; row < well2.length; row++) { // For Rows
+            for (int col = 0; col < well2[row].length; col++) { // For Columns
+                well2[row][col] = sc.nextInt();
+            }
+        }
+        System.out.println(Arrays.deepToString(well2));
     }
 }
 
