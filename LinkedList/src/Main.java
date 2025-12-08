@@ -9,6 +9,25 @@ public class Main {
         // LinkedList =  Nodes are in 2 parts (data + address) Nodes are in non-consecutive memory locations
         //               Elements are linked using pointers
 
+        //                                           Singly:
+        //                  [data | address] -> [data | address] -> [data | address]
+
+        //                                           Doubly:
+        //             Node                           Node                         Node
+        //  [address | data | address] -> [address | data | address] -> [address | data | address]
+
+        //                                           Circular:
+        //                                           {Doubly}
+        //               Node                          Node                         Node
+        //   --> [address | data | address] -> [address | data | address] -> [address | data | address] --
+        //   |                                                                                           |
+        //   ---------------------------------------------------------------------------------------------
+
+        //                                          {Singly}
+        //             ---> [data | address] -> [data | address] -> [data | address]--
+        //             |                                                              |
+        //             ---------------------------------------------------------------
+
         //    advantages?
         //    1. Dynamic Data Structure (allocates needed memory while running)
         //    2. Insertion and Deletion of Nodes is easy. O(1)

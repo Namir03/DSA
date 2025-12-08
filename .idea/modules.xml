@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Arrays_/Arrays_.iml" filepath="$PROJECT_DIR$/Arrays_/Arrays_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays_/Arrays.iml" filepath="$PROJECT_DIR$/Arrays_/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicArrays/DynamicArrays.iml" filepath="$PROJECT_DIR$/DynamicArrays/DynamicArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
     </modules>
   </component>
